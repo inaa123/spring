@@ -11,5 +11,6 @@ public class Main {
 		Rabbit rabbit = ctx.getBean(Rabbit.class); 
 		
 		System.out.println(calculator.calc().getResult());
+		System.out.println(rabbit.sleep().getResult());
 	}
 }
